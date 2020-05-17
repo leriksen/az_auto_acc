@@ -20,7 +20,7 @@ provider "azurerm" {
   subscription_id            = local.subscription_id
   tenant_id                  = local.tenant_id
   skip_provider_registration = true
-  feature {}
+  features {}
 }
 
 resource "azurerm_resource_group" "auto_rg" {
